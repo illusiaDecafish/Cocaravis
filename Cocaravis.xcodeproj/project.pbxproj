@@ -8,12 +8,132 @@
 
 /* Begin PBXBuildFile section */
 		1802B2AD22DDB9EA00CD9E99 /* Cocaravis.h in Headers */ = {isa = PBXBuildFile; fileRef = 1802B2AB22DDB9EA00CD9E99 /* Cocaravis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1802B2B522DDBA2000CD9E99 /* libaravis-0.6.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802B2B422DDBA2000CD9E99 /* libaravis-0.6.0.dylib */; };
+		1802B2B922DDBA4900CD9E99 /* libglib-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802B2B822DDBA4900CD9E99 /* libglib-2.0.0.dylib */; };
+		1802B2BD22DDBA6A00CD9E99 /* libgobject-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802B2BC22DDBA6A00CD9E99 /* libgobject-2.0.0.dylib */; };
+		1802B2BF22DDBA7B00CD9E99 /* libgthread-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802B2BE22DDBA7B00CD9E99 /* libgthread-2.0.0.dylib */; };
+		1802B2DE22DDBBE400CD9E99 /* CoACameraFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 1802B2C822DDBBE200CD9E99 /* CoACameraFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1802B2DF22DDBBE400CD9E99 /* CoAFrameAverager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1802B2C922DDBBE200CD9E99 /* CoAFrameAverager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1802B2E022DDBBE400CD9E99 /* CoADevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B2CA22DDBBE200CD9E99 /* CoADevice.m */; };
+		1802B2E122DDBBE400CD9E99 /* CoAPixelFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 1802B2CB22DDBBE200CD9E99 /* CoAPixelFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1802B2E222DDBBE400CD9E99 /* CoACameraFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B2CC22DDBBE200CD9E99 /* CoACameraFeature.m */; };
+		1802B2E322DDBBE400CD9E99 /* CoABitmapImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B2CD22DDBBE200CD9E99 /* CoABitmapImageRep.m */; };
+		1802B2E422DDBBE400CD9E99 /* CoACameraFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B2CE22DDBBE300CD9E99 /* CoACameraFinder.m */; };
+		1802B2E522DDBBE400CD9E99 /* CoACamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 1802B2CF22DDBBE300CD9E99 /* CoACamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1802B2E622DDBBE400CD9E99 /* CoABuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1802B2D022DDBBE300CD9E99 /* CoABuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1802B2E722DDBBE400CD9E99 /* CoABitmapImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 1802B2D122DDBBE300CD9E99 /* CoABitmapImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1802B2E822DDBBE400CD9E99 /* CoAFrameAverager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B2D222DDBBE300CD9E99 /* CoAFrameAverager.m */; };
+		1802B2E922DDBBE400CD9E99 /* CoAGMainLoopWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B2D322DDBBE300CD9E99 /* CoAGMainLoopWrapper.m */; };
+		1802B2EA22DDBBE400CD9E99 /* CoAStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1802B2D422DDBBE300CD9E99 /* CoAStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1802B2EB22DDBBE400CD9E99 /* CoADevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 1802B2D522DDBBE300CD9E99 /* CoADevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1802B2EC22DDBBE400CD9E99 /* CoAStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B2D622DDBBE400CD9E99 /* CoAStream.m */; };
+		1802B2ED22DDBBE400CD9E99 /* CoACamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B2D722DDBBE400CD9E99 /* CoACamera.m */; };
+		1802B2EE22DDBBE400CD9E99 /* CoAFeatureCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B2D822DDBBE400CD9E99 /* CoAFeatureCategory.m */; };
+		1802B2EF22DDBBE400CD9E99 /* CoAGMainLoopWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1802B2D922DDBBE400CD9E99 /* CoAGMainLoopWrapper.h */; };
+		1802B2F022DDBBE400CD9E99 /* CoAFeatureCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1802B2DA22DDBBE400CD9E99 /* CoAFeatureCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1802B2F122DDBBE400CD9E99 /* CoABuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B2DB22DDBBE400CD9E99 /* CoABuffer.m */; };
+		1802B2F222DDBBE400CD9E99 /* CoAPixelFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B2DC22DDBBE400CD9E99 /* CoAPixelFormat.m */; };
+		1802B2F322DDBBE400CD9E99 /* CoACameraFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1802B2DD22DDBBE400CD9E99 /* CoACameraFinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1802B2F722DDBD7800CD9E99 /* libpcre.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1802B2C222DDBAA000CD9E99 /* libpcre.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1802B2F822DDBD7A00CD9E99 /* libintl.8.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1802B2C022DDBA8B00CD9E99 /* libintl.8.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1802B2F922DDBD7D00CD9E99 /* libgthread-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1802B2BE22DDBA7B00CD9E99 /* libgthread-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1802B2FA22DDBD8000CD9E99 /* libgobject-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1802B2BC22DDBA6A00CD9E99 /* libgobject-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1802B2FB22DDBD8200CD9E99 /* libgmodule-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1802B2BA22DDBA5C00CD9E99 /* libgmodule-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1802B2FC22DDBD8500CD9E99 /* libglib-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1802B2B822DDBA4900CD9E99 /* libglib-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1802B2FD22DDBD8800CD9E99 /* libgio-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1802B2B622DDBA3700CD9E99 /* libgio-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1802B2FE22DDBD8B00CD9E99 /* libaravis-0.6.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1802B2B422DDBA2000CD9E99 /* libaravis-0.6.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1802B30A22DDC35700CD9E99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B30922DDC35700CD9E99 /* AppDelegate.m */; };
+		1802B30C22DDC35A00CD9E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1802B30B22DDC35A00CD9E99 /* Assets.xcassets */; };
+		1802B30F22DDC35A00CD9E99 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1802B30D22DDC35A00CD9E99 /* MainMenu.xib */; };
+		1802B31222DDC35A00CD9E99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B31122DDC35A00CD9E99 /* main.m */; };
+		1802B31E22DDC3DD00CD9E99 /* TestViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B31D22DDC3DD00CD9E99 /* TestViewer.m */; };
+		1802B33422DEFE0F00CD9E99 /* libffi.6.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1802B33222DEFE0200CD9E99 /* libffi.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1809B2D822E6DA70000BAFCA /* Cocaravis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1898888D22E59F5B00EA73C8 /* Cocaravis.framework */; };
+		18A9653F22DFD591009DCD0D /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A9653E22DFD591009DCD0D /* libusb-1.0.0.dylib */; };
+		18A9654022DFD59B009DCD0D /* libusb-1.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18A9653E22DFD591009DCD0D /* libusb-1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1802B2F422DDBD5E00CD9E99 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1802B2F822DDBD7A00CD9E99 /* libintl.8.dylib in CopyFiles */,
+				1802B2F722DDBD7800CD9E99 /* libpcre.1.dylib in CopyFiles */,
+				1802B2F922DDBD7D00CD9E99 /* libgthread-2.0.0.dylib in CopyFiles */,
+				1802B2FA22DDBD8000CD9E99 /* libgobject-2.0.0.dylib in CopyFiles */,
+				1802B2FB22DDBD8200CD9E99 /* libgmodule-2.0.0.dylib in CopyFiles */,
+				1802B2FC22DDBD8500CD9E99 /* libglib-2.0.0.dylib in CopyFiles */,
+				1802B2FD22DDBD8800CD9E99 /* libgio-2.0.0.dylib in CopyFiles */,
+				1802B2FE22DDBD8B00CD9E99 /* libaravis-0.6.0.dylib in CopyFiles */,
+				1802B33422DEFE0F00CD9E99 /* libffi.6.dylib in CopyFiles */,
+				18A9654022DFD59B009DCD0D /* libusb-1.0.0.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1898889122E5A00B00EA73C8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1802B2A822DDB9EA00CD9E99 /* Cocaravis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cocaravis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1802B2AB22DDB9EA00CD9E99 /* Cocaravis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cocaravis.h; sourceTree = "<group>"; };
 		1802B2AC22DDB9EA00CD9E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1802B2B422DDBA2000CD9E99 /* libaravis-0.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libaravis-0.6.0.dylib"; path = "../../../../../../usr/local/lib/libaravis-0.6.0.dylib"; sourceTree = "<group>"; };
+		1802B2B622DDBA3700CD9E99 /* libgio-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgio-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/glib/2.60.5/lib/libgio-2.0.0.dylib"; sourceTree = "<group>"; };
+		1802B2B822DDBA4900CD9E99 /* libglib-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/glib/2.60.5/lib/libglib-2.0.0.dylib"; sourceTree = "<group>"; };
+		1802B2BA22DDBA5C00CD9E99 /* libgmodule-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgmodule-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/glib/2.60.5/lib/libgmodule-2.0.0.dylib"; sourceTree = "<group>"; };
+		1802B2BC22DDBA6A00CD9E99 /* libgobject-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgobject-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/glib/2.60.5/lib/libgobject-2.0.0.dylib"; sourceTree = "<group>"; };
+		1802B2BE22DDBA7B00CD9E99 /* libgthread-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgthread-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/glib/2.60.5/lib/libgthread-2.0.0.dylib"; sourceTree = "<group>"; };
+		1802B2C022DDBA8B00CD9E99 /* libintl.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.8.dylib; path = ../../../../../../usr/local/Cellar/gettext/0.20.1/lib/libintl.8.dylib; sourceTree = "<group>"; };
+		1802B2C222DDBAA000CD9E99 /* libpcre.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpcre.1.dylib; path = ../../../../../../usr/local/Cellar/pcre/8.43/lib/libpcre.1.dylib; sourceTree = "<group>"; };
+		1802B2C822DDBBE200CD9E99 /* CoACameraFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoACameraFeature.h; sourceTree = "<group>"; };
+		1802B2C922DDBBE200CD9E99 /* CoAFrameAverager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoAFrameAverager.h; sourceTree = "<group>"; };
+		1802B2CA22DDBBE200CD9E99 /* CoADevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoADevice.m; sourceTree = "<group>"; };
+		1802B2CB22DDBBE200CD9E99 /* CoAPixelFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoAPixelFormat.h; sourceTree = "<group>"; };
+		1802B2CC22DDBBE200CD9E99 /* CoACameraFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoACameraFeature.m; sourceTree = "<group>"; };
+		1802B2CD22DDBBE200CD9E99 /* CoABitmapImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoABitmapImageRep.m; sourceTree = "<group>"; };
+		1802B2CE22DDBBE300CD9E99 /* CoACameraFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoACameraFinder.m; sourceTree = "<group>"; };
+		1802B2CF22DDBBE300CD9E99 /* CoACamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoACamera.h; sourceTree = "<group>"; };
+		1802B2D022DDBBE300CD9E99 /* CoABuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoABuffer.h; sourceTree = "<group>"; };
+		1802B2D122DDBBE300CD9E99 /* CoABitmapImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoABitmapImageRep.h; sourceTree = "<group>"; };
+		1802B2D222DDBBE300CD9E99 /* CoAFrameAverager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoAFrameAverager.m; sourceTree = "<group>"; };
+		1802B2D322DDBBE300CD9E99 /* CoAGMainLoopWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoAGMainLoopWrapper.m; sourceTree = "<group>"; };
+		1802B2D422DDBBE300CD9E99 /* CoAStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoAStream.h; sourceTree = "<group>"; };
+		1802B2D522DDBBE300CD9E99 /* CoADevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoADevice.h; sourceTree = "<group>"; };
+		1802B2D622DDBBE400CD9E99 /* CoAStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoAStream.m; sourceTree = "<group>"; };
+		1802B2D722DDBBE400CD9E99 /* CoACamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoACamera.m; sourceTree = "<group>"; };
+		1802B2D822DDBBE400CD9E99 /* CoAFeatureCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoAFeatureCategory.m; sourceTree = "<group>"; };
+		1802B2D922DDBBE400CD9E99 /* CoAGMainLoopWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoAGMainLoopWrapper.h; sourceTree = "<group>"; };
+		1802B2DA22DDBBE400CD9E99 /* CoAFeatureCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoAFeatureCategory.h; sourceTree = "<group>"; };
+		1802B2DB22DDBBE400CD9E99 /* CoABuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoABuffer.m; sourceTree = "<group>"; };
+		1802B2DC22DDBBE400CD9E99 /* CoAPixelFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoAPixelFormat.m; sourceTree = "<group>"; };
+		1802B2DD22DDBBE400CD9E99 /* CoACameraFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoACameraFinder.h; sourceTree = "<group>"; };
+		1802B2FF22DDBE1700CD9E99 /* Script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
+		1802B30622DDC35700CD9E99 /* TestViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1802B30822DDC35700CD9E99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1802B30922DDC35700CD9E99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1802B30B22DDC35A00CD9E99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1802B30E22DDC35A00CD9E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1802B31022DDC35A00CD9E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1802B31122DDC35A00CD9E99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1802B31322DDC35A00CD9E99 /* TestViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestViewer.entitlements; sourceTree = "<group>"; };
+		1802B31C22DDC3DD00CD9E99 /* TestViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewer.h; sourceTree = "<group>"; };
+		1802B31D22DDC3DD00CD9E99 /* TestViewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewer.m; sourceTree = "<group>"; };
+		1802B33222DEFE0200CD9E99 /* libffi.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libffi.6.dylib; path = ../../../../../../usr/local/Cellar/libffi/3.2.1/lib/libffi.6.dylib; sourceTree = "<group>"; };
+		1809B2D622E6DA58000BAFCA /* Cocaravis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocaravis.framework; path = binary/Cocaravis.framework; sourceTree = "<group>"; };
+		1898888D22E59F5B00EA73C8 /* Cocaravis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocaravis.framework; path = binary/Cocaravis.framework; sourceTree = "<group>"; };
+		18A9653E22DFD591009DCD0D /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-1.0.0.dylib"; path = "../../../../../../usr/local/Cellar/libusb/1.0.22/lib/libusb-1.0.0.dylib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +141,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A9653F22DFD591009DCD0D /* libusb-1.0.0.dylib in Frameworks */,
+				1802B2B922DDBA4900CD9E99 /* libglib-2.0.0.dylib in Frameworks */,
+				1802B2BF22DDBA7B00CD9E99 /* libgthread-2.0.0.dylib in Frameworks */,
+				1802B2BD22DDBA6A00CD9E99 /* libgobject-2.0.0.dylib in Frameworks */,
+				1802B2B522DDBA2000CD9E99 /* libaravis-0.6.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1802B30322DDC35700CD9E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1809B2D822E6DA70000BAFCA /* Cocaravis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,8 +163,11 @@
 		1802B29E22DDB9EA00CD9E99 = {
 			isa = PBXGroup;
 			children = (
+				1809B2D622E6DA58000BAFCA /* Cocaravis.framework */,
 				1802B2AA22DDB9EA00CD9E99 /* Cocaravis */,
+				1802B30722DDC35700CD9E99 /* TestViewer */,
 				1802B2A922DDB9EA00CD9E99 /* Products */,
+				1802B2B322DDBA2000CD9E99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				1802B2A822DDB9EA00CD9E99 /* Cocaravis.framework */,
+				1802B30622DDC35700CD9E99 /* TestViewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +183,67 @@
 		1802B2AA22DDB9EA00CD9E99 /* Cocaravis */ = {
 			isa = PBXGroup;
 			children = (
+				1802B2FF22DDBE1700CD9E99 /* Script.sh */,
 				1802B2AB22DDB9EA00CD9E99 /* Cocaravis.h */,
+				1802B2DD22DDBBE400CD9E99 /* CoACameraFinder.h */,
+				1802B2CE22DDBBE300CD9E99 /* CoACameraFinder.m */,
+				1802B2CF22DDBBE300CD9E99 /* CoACamera.h */,
+				1802B2D722DDBBE400CD9E99 /* CoACamera.m */,
+				1802B2D522DDBBE300CD9E99 /* CoADevice.h */,
+				1802B2CA22DDBBE200CD9E99 /* CoADevice.m */,
+				1802B2D422DDBBE300CD9E99 /* CoAStream.h */,
+				1802B2D622DDBBE400CD9E99 /* CoAStream.m */,
+				1802B2D022DDBBE300CD9E99 /* CoABuffer.h */,
+				1802B2DB22DDBBE400CD9E99 /* CoABuffer.m */,
+				1802B2D122DDBBE300CD9E99 /* CoABitmapImageRep.h */,
+				1802B2CD22DDBBE200CD9E99 /* CoABitmapImageRep.m */,
+				1802B2DA22DDBBE400CD9E99 /* CoAFeatureCategory.h */,
+				1802B2D822DDBBE400CD9E99 /* CoAFeatureCategory.m */,
+				1802B2C822DDBBE200CD9E99 /* CoACameraFeature.h */,
+				1802B2CC22DDBBE200CD9E99 /* CoACameraFeature.m */,
+				1802B2C922DDBBE200CD9E99 /* CoAFrameAverager.h */,
+				1802B2D222DDBBE300CD9E99 /* CoAFrameAverager.m */,
+				1802B2D922DDBBE400CD9E99 /* CoAGMainLoopWrapper.h */,
+				1802B2D322DDBBE300CD9E99 /* CoAGMainLoopWrapper.m */,
+				1802B2CB22DDBBE200CD9E99 /* CoAPixelFormat.h */,
+				1802B2DC22DDBBE400CD9E99 /* CoAPixelFormat.m */,
 				1802B2AC22DDB9EA00CD9E99 /* Info.plist */,
 			);
 			path = Cocaravis;
+			sourceTree = "<group>";
+		};
+		1802B2B322DDBA2000CD9E99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1898888D22E59F5B00EA73C8 /* Cocaravis.framework */,
+				18A9653E22DFD591009DCD0D /* libusb-1.0.0.dylib */,
+				1802B33222DEFE0200CD9E99 /* libffi.6.dylib */,
+				1802B2C222DDBAA000CD9E99 /* libpcre.1.dylib */,
+				1802B2C022DDBA8B00CD9E99 /* libintl.8.dylib */,
+				1802B2BE22DDBA7B00CD9E99 /* libgthread-2.0.0.dylib */,
+				1802B2BC22DDBA6A00CD9E99 /* libgobject-2.0.0.dylib */,
+				1802B2BA22DDBA5C00CD9E99 /* libgmodule-2.0.0.dylib */,
+				1802B2B822DDBA4900CD9E99 /* libglib-2.0.0.dylib */,
+				1802B2B622DDBA3700CD9E99 /* libgio-2.0.0.dylib */,
+				1802B2B422DDBA2000CD9E99 /* libaravis-0.6.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1802B30722DDC35700CD9E99 /* TestViewer */ = {
+			isa = PBXGroup;
+			children = (
+				1802B30822DDC35700CD9E99 /* AppDelegate.h */,
+				1802B30922DDC35700CD9E99 /* AppDelegate.m */,
+				1802B31C22DDC3DD00CD9E99 /* TestViewer.h */,
+				1802B31D22DDC3DD00CD9E99 /* TestViewer.m */,
+				1802B30B22DDC35A00CD9E99 /* Assets.xcassets */,
+				1802B30D22DDC35A00CD9E99 /* MainMenu.xib */,
+				1802B31022DDC35A00CD9E99 /* Info.plist */,
+				1802B31122DDC35A00CD9E99 /* main.m */,
+				1802B31322DDC35A00CD9E99 /* TestViewer.entitlements */,
+			);
+			path = TestViewer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +253,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1802B2F022DDBBE400CD9E99 /* CoAFeatureCategory.h in Headers */,
+				1802B2EA22DDBBE400CD9E99 /* CoAStream.h in Headers */,
+				1802B2E122DDBBE400CD9E99 /* CoAPixelFormat.h in Headers */,
+				1802B2EF22DDBBE400CD9E99 /* CoAGMainLoopWrapper.h in Headers */,
+				1802B2DE22DDBBE400CD9E99 /* CoACameraFeature.h in Headers */,
+				1802B2E622DDBBE400CD9E99 /* CoABuffer.h in Headers */,
+				1802B2EB22DDBBE400CD9E99 /* CoADevice.h in Headers */,
+				1802B2E522DDBBE400CD9E99 /* CoACamera.h in Headers */,
+				1802B2DF22DDBBE400CD9E99 /* CoAFrameAverager.h in Headers */,
+				1802B2E722DDBBE400CD9E99 /* CoABitmapImageRep.h in Headers */,
+				1802B2F322DDBBE400CD9E99 /* CoACameraFinder.h in Headers */,
 				1802B2AD22DDB9EA00CD9E99 /* Cocaravis.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +277,8 @@
 			buildPhases = (
 				1802B2A322DDB9EA00CD9E99 /* Headers */,
 				1802B2A422DDB9EA00CD9E99 /* Sources */,
+				1802B2F422DDBD5E00CD9E99 /* CopyFiles */,
+				1802B30122DDBE3000CD9E99 /* ShellScript */,
 				1802B2A522DDB9EA00CD9E99 /* Frameworks */,
 				1802B2A622DDB9EA00CD9E99 /* Resources */,
 			);
@@ -83,6 +290,24 @@
 			productName = Cocaravis;
 			productReference = 1802B2A822DDB9EA00CD9E99 /* Cocaravis.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		1802B30522DDC35700CD9E99 /* TestViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1802B31422DDC35A00CD9E99 /* Build configuration list for PBXNativeTarget "TestViewer" */;
+			buildPhases = (
+				1802B30222DDC35700CD9E99 /* Sources */,
+				1802B30322DDC35700CD9E99 /* Frameworks */,
+				1802B30422DDC35700CD9E99 /* Resources */,
+				1898889122E5A00B00EA73C8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestViewer;
+			productName = TestViewer;
+			productReference = 1802B30622DDC35700CD9E99 /* TestViewer.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +321,14 @@
 					1802B2A722DDB9EA00CD9E99 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					1802B30522DDC35700CD9E99 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
 				};
 			};
 			buildConfigurationList = 1802B2A222DDB9EA00CD9E99 /* Build configuration list for PBXProject "Cocaravis" */;
@@ -104,6 +337,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 1802B29E22DDB9EA00CD9E99;
 			productRefGroup = 1802B2A922DDB9EA00CD9E99 /* Products */;
@@ -111,6 +345,7 @@
 			projectRoot = "";
 			targets = (
 				1802B2A722DDB9EA00CD9E99 /* Cocaravis */,
+				1802B30522DDC35700CD9E99 /* TestViewer */,
 			);
 		};
 /* End PBXProject section */
@@ -123,17 +358,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1802B30422DDC35700CD9E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1802B30C22DDC35A00CD9E99 /* Assets.xcassets in Resources */,
+				1802B30F22DDC35A00CD9E99 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1802B30122DDBE3000CD9E99 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "EXECFILE=${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\nLIBPATH=${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}\nNEWLIBPATH=@loader_path/Frameworks\n\ncd ${LIBPATH}\nTARGETS=(`ls -w *.dylib`)\n\nfor TARGET in ${TARGETS[@]}\ndo\nLIBFILE=${LIBPATH}/${TARGET}\nTARGETID=`otool -DX \"${TARGET}\"`\nNEWTARGETID=${NEWLIBPATH}/${TARGET}\ninstall_name_tool -id \"${NEWTARGETID}\" \"${LIBFILE}\"\ninstall_name_tool -change ${TARGETID} ${NEWTARGETID} \"${EXECFILE}\"\ndone\n\nfor TARGET in ${TARGETS[@]}\ndo\nfor LIB in ${TARGETS[@]}\ndo\nif [ ${TARGET} != ${LIB} ]\nthen\nREFLIBS=(`otool -LX $TARGET | grep $LIB`)\nif [ ${#REFLIBS[0]% *} -gt 0 ]\nthen\nNEWLIBID=@rpath/${LIB}\ninstall_name_tool -change ${REFLIBS} ${NEWLIBID} ${TARGET}\nfi\nfi\ndone\ndone\n\n                                                                                                                                   \n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1802B2A422DDB9EA00CD9E99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1802B2E922DDBBE400CD9E99 /* CoAGMainLoopWrapper.m in Sources */,
+				1802B2E822DDBBE400CD9E99 /* CoAFrameAverager.m in Sources */,
+				1802B2F222DDBBE400CD9E99 /* CoAPixelFormat.m in Sources */,
+				1802B2ED22DDBBE400CD9E99 /* CoACamera.m in Sources */,
+				1802B2EC22DDBBE400CD9E99 /* CoAStream.m in Sources */,
+				1802B2EE22DDBBE400CD9E99 /* CoAFeatureCategory.m in Sources */,
+				1802B2E422DDBBE400CD9E99 /* CoACameraFinder.m in Sources */,
+				1802B2E022DDBBE400CD9E99 /* CoADevice.m in Sources */,
+				1802B2F122DDBBE400CD9E99 /* CoABuffer.m in Sources */,
+				1802B2E222DDBBE400CD9E99 /* CoACameraFeature.m in Sources */,
+				1802B2E322DDBBE400CD9E99 /* CoABitmapImageRep.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1802B30222DDC35700CD9E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1802B31E22DDC3DD00CD9E99 /* TestViewer.m in Sources */,
+				1802B31222DDC35A00CD9E99 /* main.m in Sources */,
+				1802B30A22DDC35700CD9E99 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1802B30D22DDC35A00CD9E99 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1802B30E22DDC35A00CD9E99 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1802B2AE22DDB9EA00CD9E99 /* Debug */ = {
@@ -257,7 +553,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 96RQ3K3QYL;
@@ -265,15 +561,29 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"/usr/local/include/aravis-0.6",
+					"/usr/local/include/glib-2.0",
+					"/usr/local/lib/glib-2.0/include/",
+				);
 				INFOPLIST_FILE = Cocaravis/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.ne.so-net.Cocaravis";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib,
+					/usr/local/opt/libffi/lib,
+					/usr/local/Cellar/glib/2.60.5/lib,
+					/usr/local/Cellar/libffi/3.2.1/lib,
+					/usr/local/Cellar/libusb/1.0.22/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ne.so-net.decafish.Cocaravis";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -282,7 +592,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 96RQ3K3QYL;
@@ -290,16 +600,74 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"/usr/local/include/aravis-0.6",
+					"/usr/local/include/glib-2.0",
+					"/usr/local/lib/glib-2.0/include/",
+				);
 				INFOPLIST_FILE = Cocaravis/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.ne.so-net.Cocaravis";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib,
+					/usr/local/opt/libffi/lib,
+					/usr/local/Cellar/glib/2.60.5/lib,
+					/usr/local/Cellar/libffi/3.2.1/lib,
+					/usr/local/Cellar/libusb/1.0.22/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ne.so-net.decafish.Cocaravis";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1802B31522DDC35A00CD9E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestViewer/TestViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 96RQ3K3QYL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/binary",
+				);
+				INFOPLIST_FILE = TestViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ne.so-net.decafish.TestViewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1802B31622DDC35A00CD9E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestViewer/TestViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 96RQ3K3QYL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/binary",
+				);
+				INFOPLIST_FILE = TestViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ne.so-net.decafish.TestViewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -320,6 +688,15 @@
 			buildConfigurations = (
 				1802B2B122DDB9EA00CD9E99 /* Debug */,
 				1802B2B222DDB9EA00CD9E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1802B31422DDC35A00CD9E99 /* Build configuration list for PBXNativeTarget "TestViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1802B31522DDC35A00CD9E99 /* Debug */,
+				1802B31622DDC35A00CD9E99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
